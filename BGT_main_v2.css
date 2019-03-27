@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+                                                        /* COMMON  */
+
+html {}
+
+body{
+    font-family: "Open Sans", SansSerif !important;
+}
+
+.container {
+    width: 100%;
+    max-width: none;
+    padding: 0 15px !important;
+}
+
+a {color: #1c5379 !important;}
+
+a:hover,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #e74c3c !important;
+}
+
+body div {
+    display: block!important;
+}
+
+                                                         /* HEADER */
+
+.bgt-nav, #main_footer {
+    background-color: #77c4d3;
+}
+
+.bgt-nav {
+    min-height: 90px;
+    justify-content: start !important;
+
+}
+
+.navbar-toggler {
+    /*margin-left: 9px;*/
+    margin-right: 10px;
+    padding: 9px 10px;
+    height: 42px;
+    border: 1px solid transparent !important;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    width: 30px;
+    height: 22px;
+    background-image: none !important;
+}
+
+.icon-bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #e74c3c;
+}
+
+.icon-bar:nth-child(n+3){
+    margin-top: 5px;
+}
+
+.menu-block {
+    justify-content: space-around;
+}
+
+.header-soc-block {
+    justify-content: space-around;
+}
+
+.logo-img {
+    max-height: 70px;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:hover, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #e74c3c !important;
+}
+
+#navbarSupportedContent .flex-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+                                                      /* MAIN CONTENT */
+
+
+
+                                                        /* FOOTER */
+
+#main_footer {
+    color: #1c5379;
+}
+
+.horizontal-divider {
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    height: 6px;
+    margin: 0 auto 27px;
+    background: url(images/horizontal_divider_mob.png) 100% 50% repeat-x;
+}
+
+                                                    /* MEDIA QUERIES */
+
+@media (min-width: 500px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1230px) {
+
+}
